@@ -37,6 +37,11 @@ export default function AddProductForm({ allCategory }: any) {
     },
     isDraft: false,
     featured: false,
+     dimensions: "",           // Add this
+  weight: "",              // Add this
+  material: "",            // Add this
+  videoThumbnail: null,    // Add this
+  videoUrl: ""         
   });
 
   const [tagInput, setTagInput] = useState("");
